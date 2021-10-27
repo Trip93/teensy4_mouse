@@ -188,24 +188,24 @@ void update_scroll()
 void update_buttons()
 {
   // Update main mouse buttons at highest possible speed
-  if (!digitalReadFast(M1_NO)) mouse_data[4] |= 0b00000001;
-  if (!digitalReadFast(M1_NC)) mouse_data[4] &= 0b11111110;
-  if (!digitalReadFast(M2_NO)) mouse_data[4] |= 0b00000010;
-  if (!digitalReadFast(M2_NC)) mouse_data[4] &= 0b11111101;
-  if (!digitalReadFast(M4_NO)) mouse_data[4] |= 0b00001000;
-  if (!digitalReadFast(M4_NC)) mouse_data[4] &= 0b11110111;
-  if (!digitalReadFast(M5_NO)) mouse_data[4] |= 0b00010000;
-  if (!digitalReadFast(M5_NC)) mouse_data[4] &= 0b11101111;
+  if (!digitalReadFast(M1_NO) && digitalReadFast(M1_NC)) mouse_data[4] |= 0b00000001;
+  if (!digitalReadFast(M1_NC) && digitalReadFast(M1_NO)) mouse_data[4] &= 0b11111110;
+  if (!digitalReadFast(M2_NO) && digitalReadFast(M2_NC)) mouse_data[4] |= 0b00000010;
+  if (!digitalReadFast(M2_NC) && digitalReadFast(M2_NO)) mouse_data[4] &= 0b11111101;
+  if (!digitalReadFast(M4_NO) && digitalReadFast(M4_NC)) mouse_data[4] |= 0b00001000;
+  if (!digitalReadFast(M4_NC) && digitalReadFast(M4_NO)) mouse_data[4] &= 0b11110111;
+  if (!digitalReadFast(M5_NO) && digitalReadFast(M5_NC)) mouse_data[4] |= 0b00010000;
+  if (!digitalReadFast(M5_NC) && digitalReadFast(M5_NO)) mouse_data[4] &= 0b11101111;
 
   // Some browser functionallity bugs out when update rate of middle mouse button exceeds a 1000hz (page drag with middle mouse button)
   // No point updating the dpi button beyond a 1000hz
   if (button_timer > 0)
   {
     button_timer = 0;
-    if (!digitalReadFast(M3_NO)) mouse_data[4] |= 0b00000100;
-    if (!digitalReadFast(M3_NC)) mouse_data[4] &= 0b11111011;
-    if (!digitalReadFast(MD_NO)) mouse_data[4] |= 0b00100000;
-    if (!digitalReadFast(MD_NC)) mouse_data[4] &= 0b11011111;
+    if (!digitalReadFast(M3_NO) && digitalReadFast(M3_NC)) mouse_data[4] |= 0b00000100;
+    if (!digitalReadFast(M3_NC) && digitalReadFast(M3_NO)) mouse_data[4] &= 0b11111011;
+    if (!digitalReadFast(MD_NO) && digitalReadFast(MD_NC)) mouse_data[4] |= 0b00100000;
+    if (!digitalReadFast(MD_NC) && digitalReadFast(MD_NO)) mouse_data[4] &= 0b11011111;
   }
 }
 
