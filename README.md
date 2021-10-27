@@ -1,5 +1,6 @@
 # teensy4_mouse
-Arduino code for a high speed 8000Hz wired mouse using a teensy 4 MCU
+Arduino code for a high speed 8000Hz wired mouse using a teensy 4 MCU. 
+This code is inspired by https://github.com/mrjohnk/PMW3360DM-T2QU and https://github.com/SunjunKim/PMW3360_Arduino.
 
 This project includes code for a modified 8000Hz wired mouse using the PMW3360 sensor and Teensy4 microcontroller development board. 
 The mouse used to implement this modification was the Glorious Model O wired version. But it should be possible to implement this on any mouse that uses a PMW3360 sensor.
