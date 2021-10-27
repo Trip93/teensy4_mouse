@@ -34,5 +34,3 @@ Furthermore this modification supports fast button inputs without software based
 Both NC and NO connectors of the micro switch are connected to the microcontroller. Enabling fast state change detection without contact bounce problems.
 
 ![alt text](https://github.com/Trip93/teensy4_mouse/blob/main/pictures/NC_NO_debouncing.png)
-
-A more detailed explanation and possibly a video of the project will be disclosed later.
