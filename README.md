@@ -6,6 +6,7 @@ This project includes code for a modified 8000Hz wired mouse.
 It uses standard libraries included with the arduino IDE and teensyduino. 
 
 Hardware used for this project:
+
 PMW3360 image sensor https://www.pixart.com/products-detail/10/PMW3360DM-T2QU
 
 Teensy4 microcontroller development board https://www.pjrc.com/store/teensy40.html 
