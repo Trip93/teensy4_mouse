@@ -13,13 +13,13 @@ Teensy4 microcontroller development board https://www.pjrc.com/store/teensy40.ht
 
 Glorious Model O wired version. https://www.pcgamingrace.com/products/glorious-model-o-black
 
-It should be possible to do this project with any mouse that uses a PMW3360 sensor.
-A pinout is given below: 
-
 ![alt text](https://github.com/Trip93/teensy4_mouse/blob/main/pictures/mouse_top_closed.jpg)
+Glorious mouse modified with the teensy internally.
 
 The following connection need to be made to the mouse sensor. The power supply pins are already taken care of by the mouse itself.
 The microcontroller of the mouse should also be removed. Recommended is to use a hot air station to remove the microcontroller. 
+It should be possible to do this project with any mouse that uses a PMW3360 sensor.
+A pinout is given below: 
 
 ![alt text](https://github.com/Trip93/teensy4_mouse/blob/main/pictures/teensy4_mouse_pinout.png)
 
