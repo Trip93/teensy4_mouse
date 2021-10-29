@@ -26,6 +26,12 @@ A pinout is given below:
 The teensy4 uses a microcontroller capable of USB high speed and therefore high polling speed (8000Hz). 
 No drivers are required to enable 8000Hz. Signal integrity of the cable is important. 
 The cable of the glorious mouse was shortened to 1 meter length and USB data lines were soldered straight to the Teensy4 D- and D+ pads. 
+Picture of the modified mouse are given below:
+
+![alt text](https://github.com/Trip93/teensy4_mouse/blob/main/pictures/mouse_top_open.jpg)
+
+![alt text](https://github.com/Trip93/teensy4_mouse/blob/main/pictures/mouse_bottom_open.jpgJ)
+
 
 To verify 8000Hz operation mousetester1.5.3 was used https://www.overclock.net/threads/mousetester-software-reloaded.1590569/ 
 
