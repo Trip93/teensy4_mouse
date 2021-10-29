@@ -16,6 +16,11 @@ Glorious Model O wired version. https://www.pcgamingrace.com/products/glorious-m
 It should be possible to do this project with any mouse that uses a PMW3360 sensor.
 A pinout is given below: 
 
+![alt text](https://github.com/Trip93/teensy4_mouse/blob/main/pictures/mouse_top_closed.jpg)
+
+The following connection need to be made to the mouse sensor. The power supply pins are already taken care of by the mouse itself.
+The microcontroller of the mouse should also be removed. Recommended is to use a hot air station to remove the microcontroller. 
+
 ![alt text](https://github.com/Trip93/teensy4_mouse/blob/main/pictures/teensy4_mouse_pinout.png)
 
 The teensy4 uses a microcontroller capable of USB high speed and therefore high polling speed (8000Hz). 
