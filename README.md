@@ -29,9 +29,10 @@ The cable of the glorious mouse was shortened to 1 meter length and USB data lin
 Picture of the modified mouse are given below:
 
 ![alt text](https://github.com/Trip93/teensy4_mouse/blob/main/pictures/mouse_top_open.jpg)
+Modified mouse top view open shell.
 
 ![alt text](https://github.com/Trip93/teensy4_mouse/blob/main/pictures/mouse_bottom_open.jpgJ)
-
+Modified mouse bottom view open shell.
 
 To verify 8000Hz operation mousetester1.5.3 was used https://www.overclock.net/threads/mousetester-software-reloaded.1590569/ 
 
