@@ -31,7 +31,7 @@ int usb_mouse_move(int16_t x, int16_t y, int8_t wheel, int8_t horiz)
   buffer[5] = (y >> 8);
   buffer[6] = wheel;
   buffer[7] = horiz; 
-	return usb_mouse_transmit(buffer, 8);
+  return usb_mouse_transmit(buffer, 8);
 }
 ```
 In usb_desc.c replace the MOUSE_INTERFACE descriptor with:
