@@ -7,8 +7,8 @@
 #define PMW_RESET  17
 #define MS_0       20
 #define MS_1       21
-#define MD_NO      14
-#define MD_NC      15
+#define MC_NO      14
+#define MC_NC      15
 #define M1_NO      18
 #define M1_NC      19
 #define M2_NO      9
@@ -70,6 +70,14 @@
 #define REG_Lift_Config                0x63
 #define REG_Raw_Data_Burst             0x64
 #define REG_LiftCutoff_Tune2           0x65
+
+// Wait times for SPI transactions according to PMW3360 datasheet
+#define TSRAD_MOTION_BURST             35
+#define TSWW                           180
+#define TSRAD                          160
+#define TSRW                           20
+#define TSRR                           20
+#define TLOAD                          15
 
 void     write_reg_PMW(uint8_t reg, uint8_t value);
 uint8_t  read_reg_PMW(uint8_t reg);
