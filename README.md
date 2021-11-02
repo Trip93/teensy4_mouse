@@ -46,3 +46,13 @@ Furthermore this modification supports fast button inputs without software based
 Both NC and NO connectors of the micro switch are connected to the microcontroller. Enabling fast state change detection without contact bounce problems.
 
 ![alt text](https://github.com/Trip93/teensy4_mouse/blob/main/pictures/NC_NO_debouncing.png)
+
+Related links:
+
+If you would like to discuss something about this project I have posted a thread about this project on a few forums.
+https://www.overclock.net/threads/8000hz-diy-teensy-4-mouse.1794842/#post-28889289
+https://forums.blurbusters.com/viewtopic.php?f=7&p=73567#p73567
+https://forum.pjrc.com/threads/68553-Teensy-4-high-speed-mouse
+
+During the build process I also shot some video footage. It is possible that I will release a video somewhere in the (near) future. (no promises)
+Since I am not very experienced with video editing and the footage is not super high quality it might take some time. 
